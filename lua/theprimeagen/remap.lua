@@ -21,6 +21,8 @@ keymap.set("n", "<leader>tx", ":tabclose<CR>")
 keymap.set("n", "<leader>tn", ":tabn<CR>")
 keymap.set("n", "<leader>tp", ":tabp<CR>")
 
+keymap.set("n", "<leader>e", ":NvimTreeToggle<CR>")
+
 -- primeagon
 
 keymap.set("n", "<leader>pv", vim.cmd.Ex)
